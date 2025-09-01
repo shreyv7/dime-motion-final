@@ -27,13 +27,13 @@ const Navigation = () => {
             <img src={logo} alt="Dime Motion Logo" className="h-8 w-8 object-contain" />
             <div className="text-xl font-bold text-primary">Dime Motion</div>
           </div>
-          <div className="flex space-x-8">
+          <div className="flex space-x-4 sm:space-x-6 md:space-x-8">
             {navItems.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
                 onClick={(e) => handleClick(e, item.href)}
-                className="text-black hover:text-gray-600 transition-colors duration-200 text-sm font-medium"
+                className="text-black hover:text-gray-600 transition-colors duration-200 text-xs sm:text-sm font-medium whitespace-nowrap"
               >
                 {item.name}
               </a>
