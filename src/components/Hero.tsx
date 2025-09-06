@@ -72,19 +72,19 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-5xl mx-auto px-4 sm:px-6 -mt-20">
-        <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-8xl font-black mb-4 sm:mb-6 text-glow">
+        <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-8xl font-black mb-4 sm:mb-6">
         
           <br />
-                      <span className="text-black font-articulateCFBold italic">
-              <span className="text-[calc(1em-26px)] sm:text-[calc(1em-26px)]"> Forging Content That </span>
-                           <span className="italic text-glow font-articulateCFBold relative text-primary text-[calc(1em-26px)] sm:text-[calc(1em-26px)]">
+                      <span className="text-black font-windsolRegular italic">
+              <span className="text-[calc(1em-26px)] sm:text-[calc(1em-26px)]"> Forging <span className="underline text-gray-500">Content</span> That </span>
+                           <span className="italic font-windsolRegular relative text-primary text-[calc(1em-26px)] sm:text-[calc(1em-26px)]">
                 Builds
               </span>
             </span>
             <br className="leading-[0.01]" />
-            <span className="text-black font-articulateCFBold italic">
+            <span className="text-black font-windsolRegular italic">
               <span className="text-[calc(1em-19px)] sm:text-[calc(1em-19px)]"> Brands and  </span>
-                           <span className="italic text-glow font-articulateCFBold relative text-black text-[calc(1em-19px)] sm:text-[calc(1em-19px)]">
+                           <span className="italic font-windsolRegular relative text-black text-[calc(1em-19px)] sm:text-[calc(1em-19px)]">
                 Bank Accounts
               {/* Continuously popping dollar notes */}
               <DollarSign className="absolute -top-2 -right-6 w-6 h-6 text-primary animate-bounce opacity-0" style={{ animation: 'popDollar 2s infinite' }} />

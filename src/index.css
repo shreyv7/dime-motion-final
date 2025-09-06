@@ -31,6 +31,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'WindsolRegular';
+  src: url('./assets/Windsol-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
 All colors MUST be HSL.
 */

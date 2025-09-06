@@ -29,6 +29,7 @@ export default {
 				pilatExtended: ['PilatExtended', 'sans-serif'],
 				articulateCFBold: ['ArticulateCFBold', 'sans-serif'],
 				golosText: ['GolosText', 'sans-serif'],
+				windsolRegular: ['WindsolRegular', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
