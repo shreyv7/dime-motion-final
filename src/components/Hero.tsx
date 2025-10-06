@@ -43,7 +43,7 @@ const Hero = () => {
                 { image: testimonial1, text: 'Kash Straughn', subText: 'Tiktok: @thekashstraughn 22k' },
                 { image: testimonial2, text: 'Nate Leathers', subText: 'IG: @nateleatherss 108k' },
                 { image: testimonial3, text: 'Logan Corlette' },
-                { image: testimonial4, text: 'Troy Male' },
+                { image: testimonial4, text: 'Troy Male', subText: 'YT: @ProjectHysteria 5.1M' },
                 { image: testimonial5, text: 'Mitch Corlett' },
                 { image: testimonial6, text: 'Erick Martinez', subText: 'IG: @conermartz 7k' },
               ].map((t, idx) => (
@@ -64,7 +64,7 @@ const Hero = () => {
                 { image: testimonial1, text: 'Kash Straughn', subText: 'Tiktok: @thekashstraughn 22k' },
                 { image: testimonial2, text: 'Nate Leathers', subText: 'IG: @nateleatherss 108k' },
                 { image: testimonial3, text: 'Logan Corlett' },
-                { image: testimonial4, text: 'Troy Male' },
+                { image: testimonial4, text: 'Troy Male', subText: 'YT: @ProjectHysteria 5.1M' },
                 { image: testimonial5, text: 'Mitch Corlette' },
                 { image: testimonial6, text: 'Erick Martinez', subText: 'IG: @conermartz 7k' },
               ].map((t, idx) => (
