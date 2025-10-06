@@ -6,6 +6,7 @@ import testimonial2 from "@/assets/2.jpeg";
 import testimonial3 from "@/assets/3.jpeg";
 import testimonial4 from "@/assets/4.jpeg";
 import testimonial5 from "@/assets/5.jpeg";
+import testimonial6 from "@/assets/6.jpeg";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -39,30 +40,42 @@ const Hero = () => {
           <div className="flex animate-marquee-seamless" style={{ width: 'max-content', maxWidth: 'none' }}>
             <div className="flex items-center gap-4 sm:gap-8">
               {[
-                { image: testimonial1, text: '"Amazing service, highly recommend!"' },
-                { image: testimonial2, text: '"They transformed our brand beautifully."' },
-                { image: testimonial3, text: '"Professional, creative, and fast!"' },
-                { image: testimonial4, text: '"Great team to work with."' },
-                { image: testimonial5, text: '"Exceeded all our expectations!"' },
+                { image: testimonial1, text: 'Kash Straughn', subText: 'Tiktok: @thekashstraughn 22k' },
+                { image: testimonial2, text: 'Nate Leathers', subText: 'IG: @nateleatherss 108k' },
+                { image: testimonial3, text: 'Logan Corlette' },
+                { image: testimonial4, text: 'Troy Male' },
+                { image: testimonial5, text: 'Mitch Corlett' },
+                { image: testimonial6, text: 'Erick Martinez', subText: 'IG: @conermartz 7k' },
               ].map((t, idx) => (
                 <div key={`a-${idx}`} className="flex items-center gap-2 sm:gap-4 bg-[hsl(var(--card))] border border-[hsl(var(--border)/0.3)] rounded-md px-2 sm:px-4 py-2 sm:py-3 shadow-[var(--shadow-subtle)] flex-shrink-0 max-w-[280px] sm:max-w-xl">
                   <img src={t.image} alt="Client" className="h-12 w-12 sm:h-20 sm:w-20 rounded-full object-cover" loading="lazy" />
-                  <p className="text-xs sm:text-base text-black whitespace-normal break-words">{t.text}</p>
+                  <div className="flex flex-col">
+                    <p className="text-xs sm:text-base text-black whitespace-normal break-words">{t.text}</p>
+                    {t.subText && (
+                      <p className="text-[10px] sm:text-xs text-gray-700 whitespace-normal break-words">{t.subText}</p>
+                    )}
+                  </div>
                 </div>
               ))}
             </div>
             <div className="w-4 sm:w-8"></div>
             <div className="flex items-center gap-4 sm:gap-8" aria-hidden>
               {[
-                { image: testimonial1, text: '"Amazing service, highly recommend!"' },
-                { image: testimonial2, text: '"They transformed our brand beautifully."' },
-                { image: testimonial3, text: '"Professional, creative, and fast!"' },
-                { image: testimonial4, text: '"Great team to work with."' },
-                { image: testimonial5, text: '"Exceeded all our expectations!"' },
+                { image: testimonial1, text: 'Kash Straughn', subText: 'Tiktok: @thekashstraughn 22k' },
+                { image: testimonial2, text: 'Nate Leathers', subText: 'IG: @nateleatherss 108k' },
+                { image: testimonial3, text: 'Logan Corlett' },
+                { image: testimonial4, text: 'Troy Male' },
+                { image: testimonial5, text: 'Mitch Corlette' },
+                { image: testimonial6, text: 'Erick Martinez', subText: 'IG: @conermartz 7k' },
               ].map((t, idx) => (
                 <div key={`b-${idx}`} className="flex items-center gap-2 sm:gap-4 bg-[hsl(var(--card))] border border-[hsl(var(--border)/0.3)] rounded-md px-2 sm:px-4 py-2 sm:py-3 shadow-[var(--shadow-subtle)] flex-shrink-0 max-w-[280px] sm:max-w-xl">
                   <img src={t.image} alt="" className="h-12 w-12 sm:h-20 sm:w-20 rounded-full object-cover" loading="lazy" />
-                  <p className="text-xs sm:text-base text-black whitespace-normal break-words">{t.text}</p>
+                  <div className="flex flex-col">
+                    <p className="text-xs sm:text-base text-black whitespace-normal break-words">{t.text}</p>
+                    {t.subText && (
+                      <p className="text-[10px] sm:text-xs text-gray-700 whitespace-normal break-words">{t.subText}</p>
+                    )}
+                  </div>
                 </div>
               ))}
             </div>

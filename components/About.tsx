@@ -26,8 +26,8 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 max-w-3xl mx-auto">
             {[
               { number: "2356", label: "Videos Created" },
-              { number: "3+", label: "Years Experience" },
-              { number: "100M+", label: "Views" }
+              { number: "4+", label: "Years Experience" },
+              { number: "113M+", label: "Views" }
             ].map((stat, index) => (
               <div
                 key={index}
