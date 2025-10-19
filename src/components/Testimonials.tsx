@@ -7,19 +7,19 @@ const Testimonials = () => {
   
   const testimonials = [
     {
-      name: "Arjun S.",
-      feedback: "Dime Motion transformed my brand video. Their storytelling and polish are unmatched.",
-      role: "Creative Director"
+      name: "Nate Leathers",
+      feedback: "Their storytelling and polish are unmatched.",
+      role: "Entrepreneur"
     },
     {
-      name: "Sophia K.",
-      feedback: "The website they built is sleek, fast, and exactly what my business needed.",
-      role: "Startup Founder"
+      name: "Erick Martinez",
+      feedback: "Got great management skills.",
+      role: "Creative Agency Founder"
     },
     {
-      name: "Daniel M.",
-      feedback: "Their AI-powered designs were beyond imagination. Truly next-level agency.",
-      role: "Marketing Manager"
+      name: "Logan Corlette",
+      feedback: "Great to work with them. They turn raw into e-motion",
+      role: "Owner- Media Company"
     }
   ];
 
